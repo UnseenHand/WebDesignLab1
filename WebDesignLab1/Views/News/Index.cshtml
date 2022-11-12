@@ -1,2 +1,67 @@
-﻿<h1>Welcome to news site</h1>
+﻿<h1 style="padding-bottom:50px">Welcome to news site</h1>
 
+<ul class="main-ul">
+    <li class="main-li">
+        <div>
+            <img src="~/images/first-img.png" />
+        </div>
+        <div>
+            <header>
+                <h2>
+                    <a>Announcing ASP.NET Core in .NET 7</a>
+                </h2>
+                <span>November 8, 2022</span>
+            </header>
+            .NET 7 is now available! Check out all the new features
+            and improvements in ASP.NET Core in .NET 7.
+            <footer>
+                <img alt="authors" src="~/images/group-icon.png"/>
+                <span>
+                    <a>Jon Douglas</a>
+                    <a>Jeremy Likness</a>
+                    <a>Angelos Petropoulos</a>
+                </span>
+            </footer>
+        </div>
+    </li>
+    <li class="main-li">
+        <img src="~/images/second-img.png" width="480" height="240"/>
+    </li>
+    <li class="default-li">
+        <img src="~/images/third-img.png" width="240" height="135"/>
+    </li>
+    <li class="default-li">
+        <img src="~/images/fourth-img.png" width="240" height="135"/>
+    </li class="default-li">
+    <li class="default-li">
+        <img src="~/images/fifth-img.png" width="240" height="135"/>
+    </li>
+    <li class="default-li">
+        <img src="~/images/sixth-img.png" width="240" height="135"/>
+    </li>
+    <li class="default-li">
+        <img src="~/images/seventh-img.jpg" width="240" height="135"/>
+    </li>
+    <li class="default-li">
+        <img src="~/images/eighth-img.png" width="240" height="135"/>
+    </li>
+    <li class="default-li">
+        <img src="~/images/ninth-img.png" width="240" height="135"/>
+    </li>
+</ul>
+
+<style>
+    .main-ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        flex-wrap: wrap
+    }
+    .main-li{
+        width:480px;
+    }
+    .default-li{
+        width:240px;
+    }
+</style>
